@@ -8,7 +8,7 @@
     <!-- Link de fuentes Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
     
     <!-- Vinculacion de Css -->
     <link rel="stylesheet" href="./CSS/normalize.css">
@@ -23,20 +23,111 @@
             <div class="container">
                 <div class="navbar">
                     <a href="https://www.facebook.com" class="navbar-brand">
-                        <img width="40" src="assets/images/fb.png" alt="flexbox responsive">
-                        facebook
+                        <img width="40" src="assets/images/fb-03.png" alt="flexbox responsive">
+                            My Css Web
                     </a>
                     <nav class="navbar-nav">
                         <a href="" class="nav-link"> Home</a>
-                        <a href="" class="nav-link"> Store</a>
-                        <a href="" class="nav-link"> About</a>
+                        <a href="#store" class="nav-link"> Store</a>
+                        <a href="#about" class="nav-link"> About</a>
                         <a href="" class="nav-link"> Contact</a>
                     </nav>
                 </div>
             </div>
         </div>
     </header>
-    
+    <main class="container main">
+        <h1 class="main-title"> Our Products</h1>
+        <section class="store" id="store">
+            <article class="card">
+                <img src="./assets/images/Kia-logo.png" alt="" class="card-img"> <!-- Bootstrap ya lo hace auto-->
+                <div class="card-body">
+                    <h5>Lorem ipsum dolor sit amet.</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aut doloremque saepe vel facilis. Reprehenderit facilis a maxime saepe nisi voluptates! Iusto voluptatibus aperiam eligendi reiciendis quae quam tempora nemo?
+                    </p>
+                    <a href="https://www.kia.com.mx" target="_blank" 
+                    rel="noopener noreferrer" class="btn btn-dark">
+                    KIA Motors
+                    </a>
+
+                </div>
+            </article>
+            <article class="card">
+                <img src="./assets/images/Toyota_EU.svg.png" alt="" class="card-img"> <!-- Bootstrap ya lo hace auto-->
+                <div class="card-body">
+                    <h5>Lorem ipsum dolor sit amet.</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aut doloremque saepe vel facilis. Reprehenderit facilis a maxime saepe nisi voluptates! Iusto voluptatibus aperiam eligendi reiciendis quae quam tempora nemo?
+                    </p>
+                    <a href="https://www.toyota.com.mx" target="_blank" 
+                    rel="noopener noreferrer" class="btn btn-dark">
+                    Toyota Motors
+                    </a>
+                    
+                </div>
+            </article>
+            <article class="card">
+                <img src="./assets/images/Ford_logo_flat.svg.png" alt="" class="card-img"> <!-- Bootstrap ya lo hace auto-->
+                <div class="card-body">
+                    <h5>Lorem ipsum dolor sit amet.</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aut doloremque saepe vel facilis. Reprehenderit facilis a maxime saepe nisi voluptates! Iusto voluptatibus aperiam eligendi reiciendis quae quam tempora nemo?
+                    </p>
+                    <a href="https://www.ford.com.mx" target="_blank" 
+                    rel="noopener noreferrer" class="btn btn-dark">
+                    Ford Motors
+                    </a>
+                    
+                </div>
+                </article>
+                <article class="card">
+                    <img src="./assets/images/nissan_logo_icon_145792.png" alt="" class="card-img"> <!-- Bootstrap ya lo hace auto-->
+                    <div class="card-body">
+                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aut doloremque saepe vel facilis. Reprehenderit facilis a maxime saepe nisi voluptates! Iusto voluptatibus aperiam eligendi reiciendis quae quam tempora nemo?
+                        </p>
+                        <a href="https://www.nissan.com.mx" target="_blank" 
+                        rel="noopener noreferrer" class="btn btn-dark">
+                        Nissan Motors
+                        </a>
+                        
+                    </div>
+                </article>
+            </article>
+        </section>
+
+        <section class="about" id="about">
+            <div class="ab-col-img"></div>
+            <div class="ab-col-text">
+                <div class="ab-col-body">
+                    <h2>About Us</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Eius mollitia nisi necessitatibus quod est commodi hic? 
+                        Consectetur aliquam, minima dolorum magni et non voluptatem 
+                        vel ex doloribus rerum expedita saepe odit tenetur quos illo nam animi! Ab, rem aliquam. 
+                        Consectetur quam earum omnis aspernatur error ab maiores officia tenetur maxime.
+                    </p>
+                    <a href="#" class="btn btn-danger">
+                        More Information
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-footer">
+        <div class="container">
+            <p>
+                Designed by me
+            </p>
+            <p>
+                All Rights Reserved
+            </p>
+        </div>
+    </footer>
+
 </body>
 
 </html>
